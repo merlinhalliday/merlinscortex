@@ -1,5 +1,5 @@
 title = "Merlins's Cortex"
-baseURL = "https://www.merlinscortex.co.uk"
+baseURL = "merlinhalliday.github.io"
 tags = ["science", "data", "web", "technology"]
 languageCode = "en-gb"
 config = "config.toml"

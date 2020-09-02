@@ -1,0 +1,8 @@
+[submodule "merlinhalliday.github.io"]
+	path = merlinhalliday.github.io
+	url = https://github.com/merlinhalliday/merlinhalliday.github.io
+	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/merlinhalliday/merlinhalliday.github.io
+	branch = master
