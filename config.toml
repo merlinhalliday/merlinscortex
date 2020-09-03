@@ -1,10 +1,9 @@
-title = "Merlins's Cortex"
-baseURL = "merlinhalliday.github.io"
+title = "Merlin's Cortex"
+# baseURL = 
 tags = ["science", "data", "web", "technology"]
 languageCode = "en-gb"
 config = "config.toml"
 theme = "osprey"
-enableRobotsTXT = true
 canonifyURLS = true
 googleAnalytics = ""
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
