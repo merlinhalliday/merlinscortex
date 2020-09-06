@@ -1,12 +1,14 @@
 title = "Merlin's Cortex"
-# baseURL = 
+# baseURL = "https://merlinscortex.co.uk"
 tags = ["science", "data", "web", "technology"]
 languageCode = "en-gb"
 config = "config.toml"
 theme = "osprey"
 canonifyURLS = true
 googleAnalytics = "UA-176776040-1"
-disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+#google_tag_manager = ""
+disableKinds = ["taxonomy", "taxonomyTerm"] # not currently supported
+
 
 [Params]
   tagline = "Merlin Halliday"
