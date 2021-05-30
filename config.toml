@@ -1,5 +1,5 @@
 title = "Merlin's Cortex"
-# baseURL = "https://merlinscortex.co.uk"
+baseURL = "https://merlinscortex.co.uk"
 tags = ["science", "data", "web", "technology"]
 languageCode = "en-gb"
 config = "config.toml"
