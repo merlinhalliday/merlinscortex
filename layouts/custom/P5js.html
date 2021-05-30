@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "body-top" . }}
+    <main>
+
+      <section class="container">
+        <section class="content">
+          <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
+
+          <article class="entry-content">
+            {{ .Content }}
+          </article>
+      </section></section>
+      <p align="Center"><iframe style="width: {{ .Params.width }}px; height: {{ .Params.height }}px; overflow: hidden;"  scrolling="no" frameborder="0" src="{{ .Params.index }}"></iframe></p>
+      <section class="container">
+        <section class="content">
+          <article class="entry-content">
+            <h3><strong>{{ .Params.subheading}}</strong></h3>
+            <p>{{ .Params.discussion1 }}</p>
+            <p>{{ .Params.discussion2 }}</p>
+          </article>
+      </section>
+          <div class="pagination">
+            {{ if .PrevInSection }}
+              <a href="{{ .PrevInSection.Permalink }}">&laquo; {{ .PrevInSection.Title }}</a>
+            {{ end }}
+            {{ if .NextInSection }}
+              <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &raquo;</a>
+            {{ end }}
+          </div>
+        <br>
+        {{ partial "disqus" . }}
+      </section>
+
+    </main>
+    {{ partial "footer.html" . }}
+    {{ partial "body-bottom" . }}
+  </body>
+</html>
